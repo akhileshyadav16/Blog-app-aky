@@ -23,7 +23,7 @@ function BlogPage(){
     },[])
 
     return(
-        <div className="h-fit py-8 w-full my-12 sm:my-16 md:my-20">
+        <div className="h-fit min-h-screen py-8 w-full my-12 sm:my-16 md:my-20">
             <div className="flex flex-col gap-6 rounded-md py-6 h-fit  mx-auto px-2 sm:px-4 md:px-6 w-4/5 sm:w-3/5 md:w-1/3 border border-slate-800 bg-slate-900">
                 <div className="text-3xl text-center font-serif font-bold">{blog.title}</div>
                 <div className="text-slate-400"><span className="font-xl font-serif font-semibold">Summary :  </span> {blog.summary}</div>

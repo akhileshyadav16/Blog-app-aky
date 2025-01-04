@@ -65,8 +65,8 @@ function CreateBlog() {
   };
 
   return (
-    <div className="my-12 md:my-20 min-h-screen">
-      <div className="h-full w-11/12 sm:w-3/4 md:w-3/5 mx-auto bg-slate-900 rounded-md py-8">
+    <div className="my-12 md:my-20 h-fit py-4">
+      <div className="h-full w-11/12 sm:w-3/4 md:w-3/5 mx-auto bg-slate-900 px-1 rounded-md py-8">
         <div className="text-center text-3xl font-serif font-semibold">
           {_id ? "Edit Blog Post" : "Create New Post"}
         </div>

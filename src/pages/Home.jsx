@@ -30,7 +30,7 @@ function Home(){
         }
         ,[blogs.length])
     return(
-        <div className="w-full flex justify-center min-h-screen h-4/5 items-center">
+        <div className="w-full flex justify-center h-4/5 items-center">
             {
                 blogs.length > 0 ? 
                 ( 

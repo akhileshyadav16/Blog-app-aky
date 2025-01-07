@@ -47,7 +47,7 @@ function Home(){
                         <div>
                             <FaClipboardList className="h-10 w-10" />
                         </div>
-                        <div className="text-xl font-serif font-semibold">No tasks yet</div>
+                        <div className="text-xl font-serif font-semibold">No blog posts yet</div>
                         <p className="text-center mx-2">Add your first Blog to get started</p>
                     </div>
                 )
